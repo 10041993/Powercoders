@@ -1,13 +1,12 @@
-em{
+p em{
   font-style: normal;
   text-decoration: underline;
 }
 
-
 p#foohter{
   border-top: 1px solid black;
   background-color: white;
-  padding-top: 5em;
+  padding-top: 0.5em;
   margin-left: 0;
 }
 
