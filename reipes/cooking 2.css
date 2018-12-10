@@ -1,0 +1,32 @@
+body {
+
+  margin: 0 auto;
+  max-width: 40em;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #1659db;
+  background-color:black;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+body {
+  auto
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+ h1 {
+  color: #af1b1b;
+  font-size: 2.5em;
+  font-weight: 300;
+  position:absolute;
+   top: 0;
+    left: 40%;
+}
+img{
+border-style:dotted;
+color: rgba(0, 29, 255, 0.64);
+margin: auto;
+}
