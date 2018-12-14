@@ -1,0 +1,16 @@
+
+img.ahmad{
+position: absolute;
+padding-left: 450px;
+width: 200px;
+height: 200px;
+}
+img.Earth {
+  position: absolute;
+  padding-left: 850px;
+  width: 200px;
+  height: 200px;
+}
+
+h1,p,ul {
+  font-family: 'Lateef', cursive;

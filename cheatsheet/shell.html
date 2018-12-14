@@ -4,171 +4,178 @@
   <head>
     <meta charset="utf-8">
     <title>Shell cheatsheet commands</title>
+    <link rel="stylesheet" type="text/css" href="shell.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
   </head>
+
   <body>
     <h1>
       <p>Shell cheatsheet</p>
     </h1>
     <ol>
-      <h2>
+      <h3>
         <li>Print working directories</li>
-      </h2>
-      <h3>cd (win) pwd (osx)</h3>
-      <h2>
+      </h3>
+      <p>CD : <tt>win</tt></p>
+      <p>PWD : <tt>osx</tt></p>
+      <h3>
         <li>List directories contents</li>
-      </h2>
-      <h3>dir (win) ls ( osx)</h3>
-      <h2>
+      </h3>
+      <p>DIR : <tt>win</tt></p>
+      <p>LS : <tt>osx</tt></p>
+      <h3>
         <li>Change to a subdirectory</li>
-      </h2>
-      <h3>cd dir (win) cd dir ( osx)</h3>
-      <h2>
+      </h3>
+      <p>CD DIR <tt>win</tt></p>
+      <p>CD DIR :<tt>osx</tt></p>
+      <h3>
         <li>Create a directory</li>
-      </h2>
-      <h3>mkdir dir-name (win) (osx)</h3>
-      <h2>
+      </h3>
+      <p>mkdir dir-name : win osx</p>
+      <h3>
         <li>Go up a directorie</li>
-      </h2>
-      <h3>cd (win) cd (osx)</h3>
-      <h2>
+      </h3>
+      <p>CD :<tt>win</tt></p>
+      <p>CD :<tt>osx</tt></p>
+      <h3>
         <li>Deleting directories</li>
-      </h2>
-      <h3>rmdir dir-name of file</h3>
+      </h3>
+      <p>rmdir dir-name of file</p>
     </ol>
     <ul>
       <li>
-        <h2>Safe and unsafe characters</h2>
+        <h3>Safe and unsafe characters</h3>
       </li>
-      <h3>Safe characters</h3>
+      <h3><li>Safe characters</li></h3>
       <ol>
         <h3>
-          <li>Alphanumerics [0-9a-zA-Z], special characters $-_.+!*'(),,</li>
-          <li>and reserved characters used for their reserved purposes<br>
-            (e.g., question mark used to denote a query string)</li>
+          <li><tt>Alphanumerics [0-9a-zA-Z], special characters $-_.+!*'(),,</tt></li>
+          <li><tt>and reserved characters used for their reserved purposes<br>
+            (e.g., question mark used to denote a query string)</tt></li>
         </h3>
       </ol>
       <h3>Unafe characters</h3>
     </ul>
 
-    <h2>
+    <h3>
       <li>What can go wrong ?</li>
-    </h2>
+    </h3>
     <h1>15 CMD Commands Every Windows User Should Know</h1>
     <ol>
-      <h1>
+      <h2>
         <li>Taskkill</li>
-      </h1>
-      <h3>Tasks that appear in the “tasklist” command will have an
+      </h2>
+      <h3><tt>Tasks that appear in the “tasklist” command will have an
         executable and process ID<br>(a four- or five-digit number) associated
         with them. You can force stop a program using “taskkill -im”
         followed<br>by the executable’s name, or “taskkill
         -pid”followed by the process ID<br>Again, this is a bit
         redundant with Task Manager, but you can use it to kill otherwise
-        unresponsive or hidden programs.</h3>
-      <h1>
+        unresponsive or hidden programs.</tt></h3>
+      <h2>
         <li>Tasklist</li>
-      </h1>
+      </h2>
     </ol>
     <ol>
       <h1>What are the most basic Linux commands every
         developer should know?</h1>
-      <h2>
+      <h4>
         <li>man (manual page, e.g., man rm)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>cd (change directory)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>ls (list contents of directory, see man ls for
           more options, e.g., ls -1, just print file names)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>mv (move/rename file or directory)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>cp (to copy files)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>clear (clears terminal window)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>rm (remove file or directory)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>echo (print something to stdout)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>cat (print an entire file to stdout)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>tail (see man tail for options, see the last 10 lines of
           a file by default), which is also useful<br>for leaving
           a file-handle open and seeing as the file is
           modified, e.g., tail -f some_file</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>less (inspect a file page by page or line by line)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>grep (see man grep, finds files that contain a
           string, also see man egrep for finding files
           that contain a regular expression)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>sort (see man sort for sorting options)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>uniq (get a unique listing of elements, e.g.,
           cat some_file | awk -F',' '{print $2}' | sort | uniq)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>history (see recent bash history, also see ~/.bash_history)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>view (read-only vim)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>ln (to create links to files)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>chmod (change permissions, see Linux and Unix
           chmod command help and examples)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>chmod (change permissions, see Linux and Unix
           chmod command help and examples)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>chown (change user and group ownership)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>chgrp (change just group ownership)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>top (for monitoring processes)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>ps (see man ps, lists running processes)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>kill (see man kill, asks a program to exit, tells
           you if a program is running, or can force kill a program)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>pwd (to view the present working directory)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>locate (to locate files)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>scp (to copy files to a remote server)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>rsync (to sync remote servers)</li>
-      </h2>
-      <h2>
+      </h4>
+      <h4>
         <li>rpm (for managing packages in Red Hat Enterprise Linux)</li>
-      </h2>
+      </h4>
     </ol>
   </body>
 

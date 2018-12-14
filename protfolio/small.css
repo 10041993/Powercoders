@@ -1,0 +1,10 @@
+body {
+  color: rgb(43, 24, 13);
+  background-color: rgb(242, 217, 151);
+  margin: 1.5em;
+}
+h1, h2 {
+  text-align: center;
+  padding-bottom: .5em;
+  border-bottom: 1px solid rgb(231, 177, 108);
+}
