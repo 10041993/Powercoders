@@ -3,12 +3,14 @@ document.addEventListener('DOMContentLoaded', function (event) {
     let inputBox = document.getElementById('item');
     let listItem = createNewListItem(inputBox.value);
     document.querySelector('ul').appendChild(listItem);
+    inputBox.value = "";
   });
   document.querySelector('input').addEventListener('keyup', function (event) {
     if (event.key === 'Enter') {
       let inputBox = document.getElementById('item');
       let listItem = createNewListItem(inputBox.value);
       document.querySelector('ul').appendChild(listItem);
+      inputBox.value = "";
       console.log(event.key);
     }
   });
