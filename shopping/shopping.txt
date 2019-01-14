@@ -125,17 +125,3 @@ it means go back and read the code on line 31 which is an element called li.
 
 
 Line 48 closed the function called createNewListItem Line 31.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
