@@ -1,0 +1,108 @@
+h1 {
+  font-size: 50px;
+  font-style: inherit;
+  display: inline-block;
+  margin: 1px;
+  padding: 1px;
+  position: relative;
+  top: -9em;
+  text-align: center;
+  bottom: 4em;
+  color: blue;
+}
+
+button {
+  background-color: rgb(9, 2, 1);
+  border: none;
+  color: #dde7d2;
+  padding: 12px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+  background-color: whitesmoke;
+  padding: 12px;
+  margin: 4px 2px;
+  font-size: 16px;
+  left: 22em;
+}
+
+label {
+  font-size: 20px;
+}
+
+#item {
+  font-size: 15px;
+  text-align: center;
+}
+
+li button {
+  color: #e7280e;
+}
+
+li {
+  color: #4033e7;
+  font-size: 32px;
+}
+#mySidenav a {
+  position: absolute;
+  left: -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 380px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 440px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 499px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 560px;
+  background-color: #555
+}
+.sh1 {
+  height: 30%;
+  width: 90%;
+  left: 5em;
+  bottom: 1em;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  position: relative;
+}
+.sho3{
+  height: 30%;
+  width: 100%;
+}
+.sho5{
+  position: relative;
+  height: 50%;
+  width: 50%;
+  left: 22em;
+}
