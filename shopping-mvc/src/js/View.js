@@ -55,7 +55,6 @@ class View {
       const deleteButton = listItem.querySelector('button');
       deleteButton.addEventListener('click',
           () => this.controller_.deleteItem(i));
-
       this.shoppingList_.appendChild(listItem);
     }
 
