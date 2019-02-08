@@ -2,8 +2,9 @@
  * Create the Controller to run the application.
  */
 function domContentLoaded() {
-  new controller();
+  new Controller();
 }
+
 if (document.readyState === "loading") {
   document.addEventListener('DOMContentLoaded', function () {
     domContentLoaded();
